@@ -1,3 +1,12 @@
+/*!
+ * jQuery Text Typer
+ * 
+ * @version : 1.1.0
+ * @author : Pathik Gandhi (http://pathikgandhi.info)
+ * @plugin_uri : https://github.com/gr8pathik/canvas-bouncingballs
+ * @plugin_demo : http://labs.pathikgandhi.info/canvas/bouncingballs/
+ */
+ 
 // Make sure we don't execute when canvas isn't supported
 var canvas = document.getElementById("myCanvas");
 var pause = true;
