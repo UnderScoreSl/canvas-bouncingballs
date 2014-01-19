@@ -7,7 +7,7 @@ Documentation and Demos are here: http://labs.pathikgandhi.info/canvas/bouncingb
 
 ## What need and Troubleshooting
 
-1. You need Bouncing Balls plugin file [bouncingBalls.js](https://github.com/gr8pathik/jquery-Bouncing Balls/blob/master/js/Bouncing Balls.js) or [bouncingBalls.js](https://github.com/gr8pathik/jquery-Bouncing Balls/blob/master/js/Bouncing Balls-min.js)
+1. You need Bouncing Balls plugin file [bouncingBalls.js](https://github.com/gr8pathik/canvas-bouncingballs/blob/master/js/bouncingBalls.js) or [bouncingBalls-min.js](https://github.com/gr8pathik/canvas-bouncingballs/blob/master/js/bouncingBalls-min.js)
 
 ### 1.0.0
 * Initial release.
