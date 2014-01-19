@@ -1,0 +1,72 @@
+<!doctype html>  
+<!-- Header -->
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="">
+        <meta name="author" content="Pathik Gandhi">
+        <title>Bouncing Balls Animation HTML5 and Javascript(Canvas)</title>
+        <meta name="description" content="Create Multiple Bouncing balls Animation using HTML5 and Javascript(Canvas) With Start Animation, Stop Animation, Add New Ball Events.">
+        <!-- Le styles -->
+        <!-- Header -->
+        
+        <link href='http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="css/styles.css">
+        <!-- Pulled from http://code.google.com/p/html5shiv/ -->
+        <!--[if lt IE 9]>
+        <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+        <div class="container" id="bouncingBalls">
+            <!-- Main hero unit for a primary marketing message or call to action -->
+            <div class="jumbotron">
+                <h2>Bouncing Balls Animation HTML5 and Javascript(Canvas)</h2>
+                <!-- <p>Now a days the Canvas is most popular additions of HTML5 Standards. So lets make a fun to build a </p> -->
+                <p>Now a days the Canvas is most popular additions of HTML5 Standards. So i thought to make a fun to build a HTML5 Canvas particles. This will generate the balls of random size where you click on the canvas or you can add it randomly on the canvas using the button. The balls will bounce in the canvas. you can also stop/start all the balls using the Stop/Start button. you can also remove all the balls from the using the remove button. There is also a counter of how many balls are there in Canvas.</p>
+                <p><a href="https://github.com/gr8pathik/bouncingBalls" class="btn btn-primary btn-large">Download</a> <a href="http://blog.pathikgandhi.info/canvas/bouncing-balls-animation-html5-and-javascriptcanvas/" class="btn btn-primary btn-large">Blog</a> <a href="https://twitter.com/gr8pathik" class="btn btn-primary btn-large">Twitter</a></p>
+            </div>
+            
+            <div class="jumbotron" id="demo">
+
+                <h2>Bouncing Balls</h2>
+                <div class="block">
+                	<!-- <a href="#" class="animateCick anim1 btn btn-large" data-running="0">Animate</a> -->
+                    <div class="row">
+                        <div class="col-lg-8">
+                            <canvas id="myCanvas" width="700" height="400">
+                                <!-- Insert fallback content here -->
+                            </canvas>
+                        </div>
+                        <div class="col-lg-4">
+                          <div class="infoPart well">
+                                <h4>Bouncing Balls Data</h4>
+                                <dl class="dl-horizontal clearfix">
+                                  <dt>Total Circle:</dt>
+                                  <dd><span class="badge" id="totalCircles">1</span></dd>
+                                </dl>
+                                <dl class="dl-horizontal clearfix">
+                                  <dt>Animation Event:</dt>
+                                  <dd><span class="label label-info" id="aminStatus">Inverse</span></dd>
+                                </dl>
+                                <hr />
+                                <h4>Bouncing Balls Events</h4>
+                                <button class="btn btn-default btn-sm" type="button" id="addCircle">Add Circle</button> OR Click on Canvas <br /><br />
+                                <button class="btn btn-default btn-xs" type="button" id="startAnim">Start</button>
+                                <button class="btn btn-default btn-xs" type="button" id="stopAnim">Stop</button>
+                                <button class="btn btn-default btn-xs" type="button"id="resetAnim">Reset</button>
+                                <hr />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer File -->
+        <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+        <script src="http//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>        
+        <script type="text/javascript" src="js/bouncingBalls.js"></script>
+    </body>
+</html>
